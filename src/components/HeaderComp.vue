@@ -1,6 +1,6 @@
 <template>
-    <header class="dbg">
-        <div class="container dbg">
+    <header class="">
+        <div class="container ">
             <div class="logo">
                 <img src="../assets/img/dc-logo.png" alt="">
             </div>
@@ -37,8 +37,12 @@ export default {
             display: flex;
             justify-content: space-between;
 
+            .logo{
+                display: flex;
+                align-items: center;
+            }
             .logo img{
-                height: 90%;
+                height: 85%;
             }
         }
 
@@ -47,19 +51,17 @@ export default {
             flex-direction: row;
 
             li{
-                list-style: none;
-                margin: 10px 15px;
+                margin: 8px 15px;
                 vertical-align: middle;
                 line-height: 67px;
                 font-weight: bold;
                 a{
-                    text-decoration: none;
                     color: black;
                 }
             }
 
             li.active{
-                border-bottom: 3px solid #017bec;
+                border-bottom: 5px solid #017bec;
             }
         }
     }

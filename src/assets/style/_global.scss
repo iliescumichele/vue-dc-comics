@@ -4,10 +4,25 @@
     box-sizing: border-box;
   }
 
+  .clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+
   .container{
     width: 80%;
     margin: 0 auto;
   }
+
+  li{
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
 
   .dbg{
     background-color: rgba(255, 176, 79, 0.431);
