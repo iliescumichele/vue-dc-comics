@@ -1,6 +1,6 @@
 <template>
     <div class="jumbotron">
-    <img src="../assets/img/jumbotron.jpg" alt="">
+    
     </div>
 </template>
 
@@ -14,9 +14,6 @@ export default {
     .jumbotron{
         height: 400px;
 
-        img{
-            height: 100%;
-            width: 100%;
-        }
+        background-image: url("../assets/img/jumbotron.jpg");
     }
 </style>
